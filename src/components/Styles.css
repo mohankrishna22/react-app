@@ -1,0 +1,30 @@
+.addRemoveButton{
+    display: inline-flex;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    width: 60px;
+    height: 27px;
+}
+.initialAdd{
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    width: 60px;
+    height: 27px;
+    cursor: pointer;
+}
+.buttonContent{
+    width: 20px;
+    margin-bottom: 5px;
+}
+.addItem{
+    width: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.removeItem{
+    width: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
