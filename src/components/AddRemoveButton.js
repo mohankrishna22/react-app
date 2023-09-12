@@ -16,12 +16,12 @@ function AddRemoveButton() {
     <div>
       {count > 0 ? (
         <div className="addRemoveButton">
-          <div onClick={handleAddClick} className="addItem">
-            +
-          </div>
-          <div className="buttonContent">{count}</div>
           <div onClick={handleRemoveClick} className="removeItem">
             -
+          </div>
+          <div className="buttonContent">{count}</div>
+          <div onClick={handleAddClick} className="addItem">
+            +
           </div>
         </div>
       ) : (
