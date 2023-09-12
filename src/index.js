@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Dashboard from './layout/Dashboard/Dashboard.js';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Dashboard from './Dashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
